@@ -1,0 +1,19 @@
+.results__container {
+  background-color: rgba(79, 79, 79, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  gap: 4px;
+  padding: 16px;
+  border-radius: 4px;
+  margin: 12px auto;
+  max-width: 603px;
+}
+
+.with-background {
+  background-color: rgba(79, 79, 79, 0.5);
+}
+
+.without-background {
+  background-color: transparent;
+}

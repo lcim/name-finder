@@ -1,0 +1,29 @@
+.keyword {
+  display: flex;
+  place-items: center;
+  margin-inline: auto;
+  margin-block-start: 9px;
+  color: #000000;
+  background-color: #8696fe;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  padding: 9px;
+  min-width: 201px;
+  box-shadow: 0 0 5px rgba(19, 9, 9, 0.8);
+}
+
+.keyword::placeholder {
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}
+
+.keyword:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(78, 40, 255, 0.8);
+}
+.keyword:hover {
+  background-color: #fafafa;
+}

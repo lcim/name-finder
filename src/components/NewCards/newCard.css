@@ -1,0 +1,17 @@
+.result__container {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 21px;
+  border-radius: 6px;
+  padding: 3px;
+  background-color: #e7e9f0;
+  min-width: 44px;
+  background-color: #212131;
+  color: #fafafa;
+  place-content: center;
+  padding: 6px 9px;
+}
+.page__link {
+  text-decoration: none;
+}
